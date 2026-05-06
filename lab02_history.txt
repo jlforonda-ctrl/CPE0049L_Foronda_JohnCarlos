@@ -1,0 +1,6 @@
+*   d6a18c9 Merge pull request #1 from jlforonda-ctrl/feature-bio
+|\  
+| * 0175aa1 feat: added developer biography to readme
+|/  
+* da1b283 chore: initial project scaffolding and gitignore
+* f5a7c54 Initial commit
