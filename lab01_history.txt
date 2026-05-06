@@ -1,0 +1,19 @@
+    1  git config --global user.name "John Carlos Foronda"
+    2  git config --global user.email "jlforonda@feualabang.edu.ph"
+    3  git config --list 
+    4  python3 -m venv .venv
+    5  source .venv/bin/activate
+    6  echo ".venv/" > .gitignore
+    7  echo "__pycache__/" >> .gitignore
+    8  git add .gitignore
+    9  git commit -m "chore: initial project scaffolding and gitignore"
+   10  git push origin main
+   11  history > lab01_history.txt
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	lab01_history.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
