@@ -1,0 +1,9 @@
+e6a14a5 ci: added math logic and github actions pipeline
+d3e9517 ci: added math logic and github actions pipeline
+25c2db6 ci: added math logic and github actions pipeline
+d6a18c9 Merge pull request #1 from jlforonda-ctrl/feature-bio
+0175aa1 feat: added developer biography to readme
+total 12
+drwxrwxrwx+ 2 vscode vscode 4096 May  6 06:00 .
+drwxrwxrwx+ 3 vscode vscode 4096 May  6 05:59 ..
+-rw-rw-rw-  1 vscode vscode  462 May  6 06:01 ci-pipeline.yml
