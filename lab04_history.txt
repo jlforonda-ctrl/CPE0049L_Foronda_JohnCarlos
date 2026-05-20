@@ -1,0 +1,3 @@
+409d7f3 Merge pull request #4 from jlforonda-ctrl/feature-user-profile
+b8f015f feat: added basic profile logic. Resolves #3
+ca0f1b7 Merge pull request #2 from jlforonda-ctrl/feature-math-logic
