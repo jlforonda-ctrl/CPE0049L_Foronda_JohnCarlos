@@ -8,4 +8,13 @@ Generated a Mermaid.js C4 Container diagram, listed three code smells based on t
 
 **Manual Verification/Correction Steps:**
 Reviewed the Mermaid syntax to ensure it accurately maps the legacy system's structure. Checked `factory.py` and `strategy.py` to confirm no hallucinated library methods were called. Verified that the Strategy Pattern accurately processes the required dataset using the exact Encryption Key (0x4F) and Compression Factor (0.85) without hallucinated syntax.
+## Task 2: Supply-Chain & Security Integrity
 
+**Prompt Used:**
+"Provide the Python implementation for JWT authentication, a mock security audit for SECURITY.md, and an explanation of the JWT cryptographic handshake for my migration report."
+
+**AI-Generated Block:**
+Generated `src/auth.py` using PyJWT, drafted `SECURITY.md` detailing dependency pinning and mock vulnerabilities, and wrote the JWT handshake explanation.
+
+**Manual Verification/Correction Steps:**
+Reviewed the PyJWT implementation to ensure the `HS256` algorithm is used correctly for encoding and decoding. Verified that `SECURITY.md` accurately flags the hardcoded secret key as a mock vulnerability. Confirmed the handshake explanation correctly describes the HMAC SHA-256 process.
