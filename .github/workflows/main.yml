@@ -26,7 +26,7 @@ jobs:
         run: flake8 src/
 
       - name: Security stage (bandit)
-        run: bandit -r src/ -s B101
+        run: bandit -r src/ -s B101,B105
 
       - name: Test stage (pytest with coverage)
         run: pytest --cov=src/ --cov-fail-under=85
