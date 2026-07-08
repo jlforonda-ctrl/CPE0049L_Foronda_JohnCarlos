@@ -7,7 +7,7 @@ class ProcessingStrategy(ABC):
 
 class EncryptionStrategy(ProcessingStrategy):
     def process(self, data):
-        return [value ^ 0x4F for value in data]
+        return [int(value) ^ 0x4F for value in data]
 
 class CompressionStrategy(ProcessingStrategy):
     def process(self, data):
